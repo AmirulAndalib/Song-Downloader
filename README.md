@@ -36,11 +36,14 @@ A BOT TO DOWNLOAD SONGS FROM YOUTUBE.
 </p>
 </details>
 
-# Deploy To Heroku Tutorial 
-
-[CLICK HERE TO WATCH THE VIDEO](https://youtu.be/JEEBTAZFQH0) 
-
-
-# support Group
-
-- [Click Here To Reach Our Support Group](https://t.me/NAZRIYASUPPORT) 
+<details><summary>Deploy To VPS</summary>
+<p>
+<pre>
+git clone https://github.com/JinnSulthan/Song-Downloader
+cd Song-Downloader
+pip3 install -r requirements.txt
+# Change The Vars Of config File Accordingly
+python3 bot.py
+</pre>
+</p>
+</details>
